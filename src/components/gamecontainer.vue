@@ -15,7 +15,7 @@
 
     </section>
     <footer>
-      <p>给我个打赏吧 </p>
+      <p>给我个打赏吧 !!!!</p>
       <img id="payme" src="../../static/logo.png">
     </footer>
   </div>
