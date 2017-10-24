@@ -1,12 +1,12 @@
 <template>
-  <div id="game-scene" :class="{'scene in ':show,'scene out' :!show}">
+  <div id="game-scene" :class="{'scene in ': show,'scene out' : !show}">
 
   </div>
 </template>
 
 <script>
   import Constant from './constant'
-  export default {
+  export default{
     data () {
       return {
         show: false
@@ -22,4 +22,7 @@
 </script>
 
 <style scoped>
+  #game-scene {
+    background: url(../../static/card-bg.jpeg) no-repeat;
+  }
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div id="start-scene" class="scene">
-   <a href="#" id="start-btn" class="button" @click="startBtnClick()"></a>
-
+    <a href="#" id="start-btn" class="button" @click="startBtnClick()"></a>
   </div>
 </template>
 
@@ -10,18 +9,14 @@
   export default {
     methods: {
       startBtnClick () {
-        alert(1111)
         Constant.Event.$emit(Constant.MSG_START_SCENE)
       }
     }
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  #start-scene {
-    background: url(../../static/logo.png) no-repeat;
-  }
+  #start-scene {background: url(../../static/images/start-scene-bg.png) no-repeat;}
 
   .button {
     position: absolute;
@@ -29,7 +24,5 @@
     height: 100%;
     top: 0;
     left: 0;
-
   }
-
 </style>
